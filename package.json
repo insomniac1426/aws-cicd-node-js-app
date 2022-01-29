@@ -1,0 +1,19 @@
+{
+  "name": "aws-cicd-node-js-app",
+  "version": "1.0.0",
+  "description": "this is a test application for testing CI/CD using AWS Codepipeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insomniac1426/aws-cicd-node-js-app.git"
+  },
+  "author": "yash bansal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/insomniac1426/aws-cicd-node-js-app/issues"
+  },
+  "homepage": "https://github.com/insomniac1426/aws-cicd-node-js-app#readme"
+}
