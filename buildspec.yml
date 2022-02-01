@@ -15,9 +15,6 @@ phases:
       - docker build -t demo-node-js .
       - docker tag demo-node-js:latest 222416445478.dkr.ecr.ap-south-1.amazonaws.com/demo-node-js:latest
       - docker push 222416445478.dkr.ecr.ap-south-1.amazonaws.com/demo-node-js:latest
-  post_build:
-    commands:
-      - sed -i "s#<container-image>#222416445478.dkr.ecr.ap-south-1.amazonaws.com/demo-node-js:latest" ./imagedefinitions.json
 artifacts:
   secondary-artifacts:
     ImageDefinitionArtifacts:

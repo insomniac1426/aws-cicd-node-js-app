@@ -5,8 +5,8 @@
         "ecsServiceName": "demo-node-js-app",
         "containers": [
           {
-            "image": "<container-image>",
-            "name": "zwebfrontend-stag-container-definition"
+            "image": "222416445478.dkr.ecr.ap-south-1.amazonaws.com/demo-node-js:latest",
+            "name": "nodejs-app"
           }
         ]
       }
