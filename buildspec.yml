@@ -7,9 +7,9 @@ phases:
   pre_build:
     commands:
       - echo logging in to ECR...
-      - echo $(PWD)
+      - pwd
       - aws --version
-      - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
+      - aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 222416445478.dkr.ecr.ap-south-1.amazonaws.com
   build:
     commands:
       - docker build -t demo-node-js .
