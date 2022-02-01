@@ -1,15 +1,6 @@
-{
-    "services": [
-      {
-        "ecsClusterName": "demo-cluster-2",
-        "ecsServiceName": "demo-node-js-app",
-        "containers": [
-          {
-            "image": "222416445478.dkr.ecr.ap-south-1.amazonaws.com/demo-node-js:latest",
-            "name": "nodejs-app"
-          }
-        ]
-      }
-    ],
-    "serviceName": "demo-node-js-app"
+[
+  {
+    "image": "222416445478.dkr.ecr.ap-south-1.amazonaws.com/demo-node-js:latest",
+    "name": "nodejs-app"
   }
+]
