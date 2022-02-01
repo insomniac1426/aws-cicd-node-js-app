@@ -1,0 +1,15 @@
+{
+    "services": [
+      {
+        "ecsClusterName": "demo-cluster-2",
+        "ecsServiceName": "demo-node-js-app",
+        "containers": [
+          {
+            "image": "<container-image>",
+            "name": "zwebfrontend-stag-container-definition"
+          }
+        ]
+      }
+    ],
+    "serviceName": "demo-node-js-app"
+  }
